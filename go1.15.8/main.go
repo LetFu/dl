@@ -6,7 +6,7 @@
 //
 // To install, run:
 //
-//	$ go install golang.org/dl/go1.15.8@latest
+//	$ go install github.com/LetFu/dl/go1.15.8@latest
 //	$ go1.15.8 download
 //
 // And then use the go1.15.8 command as if it were your normal go
@@ -17,7 +17,7 @@
 // File bugs at https://golang.org/issues/new
 package main
 
-import "golang.org/dl/internal/version"
+import "github.com/LetFu/dl/internal/version"
 
 func main() {
 	version.Run("go1.15.8")
