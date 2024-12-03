@@ -445,6 +445,10 @@ func exe() string {
 }
 
 func goroot(version string) (string, error) {
+	if dir := os.Getenv("GOROOT"); dir != "" {
+		return filepath.Join(dir, "sdk", version), nil
+	}
+	
 	home, err := homedir()
 	if err != nil {
 		return "", fmt.Errorf("failed to get home directory: %v", err)
