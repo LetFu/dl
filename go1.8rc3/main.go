@@ -12,9 +12,9 @@
 // And then use the go1.8rc3 command as if it were your normal go
 // command.
 //
-// See the release notes at https://tip.golang.org/doc/go1.8
+// See the release notes at https://tip.github.com/LetFu/doc/go1.8
 //
-// File bugs at https://golang.org/issues/new
+// File bugs at https://github.com/LetFu/issues/new
 package main
 
 import "github.com/LetFu/dl/internal/version"

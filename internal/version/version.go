@@ -510,7 +510,7 @@ func (uat userAgentTransport) RoundTrip(r *http.Request) (*http.Response, error)
 // built with Go 1.9+, but keep it around for now until Go 1.8
 // is no longer seen in the wild in common distros.
 //
-// This is copied verbatim from golang.org/x/build/envutil.Dedup at CL 10301
+// This is copied verbatim from github.com/LetFu/x/build/envutil.Dedup at CL 10301
 // (commit a91ae26).
 func dedupEnv(caseInsensitive bool, env []string) []string {
 	out := make([]string, 0, len(env))

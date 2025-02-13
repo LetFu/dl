@@ -6,18 +6,18 @@
 //
 // To install, run:
 //
-//	$ go install golang.org/dl/go1.24rc2@latest
+//	$ go install github.com/LetFu/dl/go1.24rc2@latest
 //	$ go1.24rc2 download
 //
 // And then use the go1.24rc2 command as if it were your normal go
 // command.
 //
-// See the release notes at https://tip.golang.org/doc/go1.24.
+// See the release notes at https://tip.github.com/LetFu/doc/go1.24.
 //
 // File bugs at https://go.dev/issue/new.
 package main
 
-import "golang.org/dl/internal/version"
+import "github.com/LetFu/dl/internal/version"
 
 func main() {
 	version.Run("go1.24rc2")

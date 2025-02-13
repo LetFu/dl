@@ -6,18 +6,18 @@
 //
 // To install, run:
 //
-//	$ go install github.com/LetFu/dltFu/dl/go1.14.11@latest
+//	$ go install github.com/LetFu/dl/go1.14.11@latest
 //	$ go1.14.11 download
 //
 // And then use the go1.14.11 command as if it were your normal go
 // command.
 //
-// See the release notes at https://golang.org/doc/devel/release.html#go1.14.minor
+// See the release notes at https://github.com/LetFu/doc/devel/release.html#go1.14.minor
 //
-// File bugs at https://golang.org/issues/new
+// File bugs at https://github.com/LetFu/issues/new
 package main
 
-import "github.com/LetFu/dltFu/dl/internal/version"
+import "github.com/LetFu/dl/internal/version"
 
 func main() {
 	version.Run("go1.14.11")

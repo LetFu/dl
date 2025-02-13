@@ -12,7 +12,7 @@
 // And then use the go1.21rc2 command as if it were your normal go
 // command.
 //
-// See the release notes at https://tip.golang.org/doc/go1.21.
+// See the release notes at https://tip.github.com/LetFu/doc/go1.21.
 //
 // File bugs at https://go.dev/issue/new.
 package main

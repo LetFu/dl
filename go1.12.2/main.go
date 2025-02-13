@@ -12,9 +12,9 @@
 // And then use the go1.12.2 command as if it were your normal go
 // command.
 //
-// See the release notes at https://golang.org/doc/devel/release.html#go1.12.minor
+// See the release notes at https://github.com/LetFu/doc/devel/release.html#go1.12.minor
 //
-// File bugs at https://golang.org/issues/new
+// File bugs at https://github.com/LetFu/issues/new
 package main
 
 import "github.com/LetFu/dl/internal/version"
