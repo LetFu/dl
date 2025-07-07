@@ -17,7 +17,7 @@
 // File bugs at https://go.dev/issue/new.
 package main
 
-import "golang.org/dl/internal/version"
+import "github.com/LetFu/dl/internal/version"
 
 func main() {
 	version.Run("go1.24.2")
